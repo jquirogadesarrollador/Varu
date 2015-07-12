@@ -35,26 +35,37 @@ C:\PROYECTO_PERSONALES\27062015\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2
 C:\PROYECTO_PERSONALES\27062015\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.dll
 C:\PROYECTO_PERSONALES\27062015\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.pdb
 C:\Users\diego.rodriguez\Downloads\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.csprojResolveAssemblyReference.cache
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.dll
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.pdb
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\Brainsbits.LDA.dll
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\Brainsbits.LLB.dll
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.CrystalReports.Engine.dll
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.Shared.dll
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.Controllers.dll
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.Prompting.dll
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\Brainsbits.LDA.pdb
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\Brainsbits.LLB.pdb
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.csprojResolveAssemblyReference.cache
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.dll
-C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.pdb
+C:\Users\LuisBrayan\Documents\GitHub\Migracion Varu\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.dll
+C:\Users\LuisBrayan\Documents\GitHub\Migracion Varu\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.pdb
+C:\Users\LuisBrayan\Documents\GitHub\Migracion Varu\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.dll
+C:\Users\LuisBrayan\Documents\GitHub\Migracion Varu\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.pdb
+C:\Users\LuisBrayan\Documents\GitHub\Migracion Varu\AppPrototipoV2\AppPrototipoV2\bin\Brainsbits.LDA.dll
+C:\Users\LuisBrayan\Documents\GitHub\Migracion Varu\AppPrototipoV2\AppPrototipoV2\bin\Brainsbits.LLB.dll
+C:\Users\LuisBrayan\Documents\GitHub\Migracion Varu\AppPrototipoV2\AppPrototipoV2\bin\Brainsbits.LDA.pdb
+C:\Users\LuisBrayan\Documents\GitHub\Migracion Varu\AppPrototipoV2\AppPrototipoV2\bin\Brainsbits.LLB.pdb
+C:\Users\LuisBrayan\Documents\GitHub\Migracion Varu\AppPrototipoV2\AppPrototipoV2\bin\AjaxControlToolkit.pdb
+C:\Users\LuisBrayan\Documents\GitHub\Migracion Varu\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.csprojResolveAssemblyReference.cache
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.dll
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.pdb
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\Brainsbits.LDA.dll
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\Brainsbits.LLB.dll
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\Brainsbits.LDA.pdb
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\Brainsbits.LLB.pdb
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\AjaxControlToolkit.pdb
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.csprojResolveAssemblyReference.cache
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.dll
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.pdb
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.Shared.dll
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\PROYECTO_PERSONALES\LoginBrayan\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.CommonControls.dll

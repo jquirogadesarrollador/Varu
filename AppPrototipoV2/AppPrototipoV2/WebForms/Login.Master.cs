@@ -63,11 +63,14 @@ namespace AppPrototipoV2.WebForms
                         Mostrar(Acciones.CambioPassword);
                         Cargar(Acciones.CambioPassword);
 
-                        Informar(Panel_FONDO_MENSAJE, Image_MENSAJE_POPUP, Panel_MENSAJES, Label_MENSAJE, mensajeError[1], Proceso.Advertencia);
+                        //Informar(Panel_FONDO_MENSAJE, Image_MENSAJE_POPUP, Panel_MENSAJES, Label_MENSAJE, mensajeError[1], Proceso.Advertencia);
+                        ScriptManager.RegisterStartupScript(this, this.GetType(), "Pop", "openpopup();", true);
+
                     }
                     else
                     {
-                        Informar(Panel_FONDO_MENSAJE, Image_MENSAJE_POPUP, Panel_MENSAJES, Label_MENSAJE, mensajeError[1], Proceso.Error);
+                        ScriptManager.RegisterStartupScript(this, this.GetType(), "Pop", "openpopup();", true);
+                        //Informar(Panel_FONDO_MENSAJE, Image_MENSAJE_POPUP, Panel_MENSAJES, Label_MENSAJE, mensajeError[1], Proceso.Error);
                     }
                 }
                 else
@@ -97,7 +100,7 @@ namespace AppPrototipoV2.WebForms
                     else
                     {
                         EnviarNotificaciones();
-                        Response.Redirect("~/areas/areas.aspx");
+                        Response.Redirect("MenuPrincipal.aspx");
                     }
                 }
             }

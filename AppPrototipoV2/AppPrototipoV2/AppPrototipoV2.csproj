@@ -41,6 +41,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\AjaxMin.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -73,29 +74,25 @@
     <Content Include="BootStrapV3.3.4\js\bootstrap.min.js" />
     <Content Include="BootStrapV3.3.4\js\bootstrapValidator.js" />
     <Content Include="BootStrapV3.3.4\js\npm.js" />
-    <Content Include="css\SCharts.css" />
     <Content Include="css\SForms.css" />
+    <Content Include="css\SIconFont.css" />
     <Content Include="css\SMaster.css" />
     <Content Include="css\SMenuF.css" />
     <Content Include="css\SLogin.css" />
     <Content Include="Fonts\biblioteca-iconos-gv.svg" />
-    <Content Include="Images\edit.png" />
-    <Content Include="Images\Icon.png" />
-    <Content Include="Images\newfile.png" />
-    <Content Include="Images\print.png" />
-    <Content Include="Images\save.png" />
-    <Content Include="Images\search.png" />
-    <Content Include="Scripts\Chart.js" />
-    <Content Include="Scripts\charts.js" />
-    <Content Include="Scripts\ChartsJS\Chart.Bar.js" />
-    <Content Include="Scripts\ChartsJS\Chart.Core.js" />
-    <Content Include="Scripts\ChartsJS\Chart.Doughnut.js" />
-    <Content Include="Scripts\ChartsJS\Chart.js" />
-    <Content Include="Scripts\ChartsJS\Chart.Line.js" />
-    <Content Include="Scripts\ChartsJS\Chart.min.js" />
-    <Content Include="Scripts\ChartsJS\Chart.PolarArea.js" />
-    <Content Include="Scripts\ChartsJS\Chart.Radar.js" />
-    <Content Include="Scripts\ChartsJS\gulpfile.js" />
+    <Content Include="IconHoverEffects\css\component.css" />
+    <Content Include="IconHoverEffects\css\default.css" />
+    <Content Include="IconHoverEffects\js\component.js" />
+    <Content Include="IconHoverEffects\js\modernizr.custom.js" />
+    <Content Include="Iconos\demo-files\demo.css" />
+    <Content Include="Iconos\demo-files\demo.js" />
+    <Content Include="Iconos\fonts\iconos_gv.svg" />
+    <Content Include="Iconos\style.css" />
+    <Content Include="Images\buscar.png" />
+    <Content Include="Images\editar.png" />
+    <Content Include="Images\guardar.png" />
+    <Content Include="Images\imprimir.png" />
+    <Content Include="Images\nuevo.png" />
     <Content Include="Scripts\html5.js" />
     <Content Include="Scripts\jquery-1.11.3.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
@@ -124,6 +121,7 @@
     <Content Include="WebForms\FrmTableroControl.aspx" />
     <Content Include="WebForms\Index.aspx" />
     <Content Include="WebForms\MenuPrincipal.aspx" />
+    <Content Include="WebForms\WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -197,9 +195,26 @@
     <Compile Include="WebForms\Principal2.Master.designer.cs">
       <DependentUpon>Principal2.Master</DependentUpon>
     </Compile>
+    <Compile Include="WebForms\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="WebForms\Login.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LDA\Brainsbits.LDA.csproj">
+      <Project>{840364AD-5BF9-4F08-98E0-7BC89E024EDF}</Project>
+      <Name>Brainsbits.LDA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LLB\Brainsbits.LLB.csproj">
+      <Project>{5902E5B6-13EB-45D2-A490-49161AEB956C}</Project>
+      <Name>Brainsbits.LLB</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="BootStrapV3.3.4\css\bootstrap-theme.css.map" />
@@ -213,24 +228,11 @@
     <None Include="Fonts\biblioteca-iconos-gv.eot" />
     <None Include="Fonts\biblioteca-iconos-gv.ttf" />
     <None Include="Fonts\biblioteca-iconos-gv.woff" />
-    <None Include="Scripts\ChartsJS\.gitignore" />
-    <None Include="Scripts\ChartsJS\.travis.yml" />
-    <None Include="Scripts\ChartsJS\bower.json" />
-    <None Include="Scripts\ChartsJS\CONTRIBUTING.md" />
-    <None Include="Scripts\ChartsJS\LICENSE.md" />
-    <None Include="Scripts\ChartsJS\package.json" />
-    <None Include="Scripts\ChartsJS\README.md" />
+    <None Include="IconHoverEffects\css\.DS_Store" />
     <Content Include="WebForms\TblControl.Master" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\LDA\Brainsbits.LDA.csproj">
-      <Project>{840364AD-5BF9-4F08-98E0-7BC89E024EDF}</Project>
-      <Name>Brainsbits.LDA</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\LLB\Brainsbits.LLB.csproj">
-      <Project>{5902E5B6-13EB-45D2-A490-49161AEB956C}</Project>
-      <Name>Brainsbits.LLB</Name>
-    </ProjectReference>
+    <None Include="Iconos\fonts\iconos_gv.eot" />
+    <None Include="Iconos\fonts\iconos_gv.ttf" />
+    <None Include="Iconos\fonts\iconos_gv.woff" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
