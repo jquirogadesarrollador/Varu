@@ -1,0 +1,9 @@
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LDA\bin\Release\Brainsbits.LDA.dll
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LDA\bin\Release\Brainsbits.LDA.pdb
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LDA\obj\Release\Brainsbits.LDA.dll
+F:\Mis proyectos\grupo varu\solucion\s-v\varu\LDA\obj\Release\Brainsbits.LDA.pdb
+C:\Users\LuisBrayan\Documents\Visual Studio 2010\Projects\varu\LDA\bin\Release\Brainsbits.LDA.dll
+C:\Users\LuisBrayan\Documents\Visual Studio 2010\Projects\varu\LDA\bin\Release\Brainsbits.LDA.pdb
+C:\Users\LuisBrayan\Documents\Visual Studio 2010\Projects\varu\LDA\obj\Release\Brainsbits.LDA.csprojResolveAssemblyReference.cache
+C:\Users\LuisBrayan\Documents\Visual Studio 2010\Projects\varu\LDA\obj\Release\Brainsbits.LDA.dll
+C:\Users\LuisBrayan\Documents\Visual Studio 2010\Projects\varu\LDA\obj\Release\Brainsbits.LDA.pdb

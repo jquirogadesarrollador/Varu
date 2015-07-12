@@ -1,0 +1,12 @@
+C:\Users\LuisBrayan\Documents\GitHub\AppPrototipoV4\AppPrototipoV2\LDA\bin\Debug\Brainsbits.LDA.dll
+C:\Users\LuisBrayan\Documents\GitHub\AppPrototipoV4\AppPrototipoV2\LDA\bin\Debug\Brainsbits.LDA.pdb
+C:\Users\LuisBrayan\Documents\GitHub\AppPrototipoV4\AppPrototipoV2\LDA\obj\Debug\Brainsbits.LDA.dll
+C:\Users\LuisBrayan\Documents\GitHub\AppPrototipoV4\AppPrototipoV2\LDA\obj\Debug\Brainsbits.LDA.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\Login\AppPrototipoV2\LDA\bin\Debug\Brainsbits.LDA.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\Login\AppPrototipoV2\LDA\bin\Debug\Brainsbits.LDA.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\Login\AppPrototipoV2\LDA\obj\Debug\Brainsbits.LDA.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\Login\AppPrototipoV2\LDA\obj\Debug\Brainsbits.LDA.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\LDA\bin\Debug\Brainsbits.LDA.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\LDA\bin\Debug\Brainsbits.LDA.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\LDA\obj\Debug\Brainsbits.LDA.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\LDA\obj\Debug\Brainsbits.LDA.pdb

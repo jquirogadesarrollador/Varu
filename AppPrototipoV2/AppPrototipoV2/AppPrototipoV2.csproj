@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E725C12A-E6DA-4EBF-B23D-A6A6DE1A177B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AppPrototipoV2</RootNamespace>
+    <AssemblyName>AppPrototipoV2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.7.1213, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxMin, Version=4.97.4951.28478, Culture=neutral, PublicKeyToken=21ef50ce11b5d80f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxMin.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="TSHAK.Components, Version=2.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\TSHAK.Components.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BootStrapV3.3.4\css\bootstrap-theme.css" />
+    <Content Include="BootStrapV3.3.4\css\bootstrap-theme.min.css" />
+    <Content Include="BootStrapV3.3.4\css\bootstrap.css" />
+    <Content Include="BootStrapV3.3.4\css\bootstrap.min.css" />
+    <Content Include="BootStrapV3.3.4\css\bootstrapValidator.css" />
+    <Content Include="BootStrapV3.3.4\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="BootStrapV3.3.4\js\bootstrap-datepicker.min.js" />
+    <Content Include="BootStrapV3.3.4\js\bootstrap.js" />
+    <Content Include="BootStrapV3.3.4\js\bootstrap.min.js" />
+    <Content Include="BootStrapV3.3.4\js\bootstrapValidator.js" />
+    <Content Include="BootStrapV3.3.4\js\npm.js" />
+    <Content Include="css\SCharts.css" />
+    <Content Include="css\SForms.css" />
+    <Content Include="css\SMaster.css" />
+    <Content Include="css\SMenuF.css" />
+    <Content Include="css\SLogin.css" />
+    <Content Include="Fonts\biblioteca-iconos-gv.svg" />
+    <Content Include="Images\edit.png" />
+    <Content Include="Images\Icon.png" />
+    <Content Include="Images\newfile.png" />
+    <Content Include="Images\print.png" />
+    <Content Include="Images\save.png" />
+    <Content Include="Images\search.png" />
+    <Content Include="Scripts\Chart.js" />
+    <Content Include="Scripts\charts.js" />
+    <Content Include="Scripts\ChartsJS\Chart.Bar.js" />
+    <Content Include="Scripts\ChartsJS\Chart.Core.js" />
+    <Content Include="Scripts\ChartsJS\Chart.Doughnut.js" />
+    <Content Include="Scripts\ChartsJS\Chart.js" />
+    <Content Include="Scripts\ChartsJS\Chart.Line.js" />
+    <Content Include="Scripts\ChartsJS\Chart.min.js" />
+    <Content Include="Scripts\ChartsJS\Chart.PolarArea.js" />
+    <Content Include="Scripts\ChartsJS\Chart.Radar.js" />
+    <Content Include="Scripts\ChartsJS\gulpfile.js" />
+    <Content Include="Scripts\html5.js" />
+    <Content Include="Scripts\jquery-1.11.3.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery.touchSwipe.min.js" />
+    <Content Include="Scripts\jsapi.js" />
+    <Content Include="Scripts\jsplug.js" />
+    <Content Include="Scripts\jMenFloat.js" />
+    <Content Include="Scripts\legend.js" />
+    <Content Include="Scripts\legend.legacy.js" />
+    <Content Include="Scripts\modernizr.min.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\validatorForm.js" />
+    <Content Include="Scripts\validatorLogin.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebForms\FrmForms.aspx" />
+    <Content Include="WebForms\FrmGrid.aspx" />
+    <Content Include="WebForms\FrmGuia.aspx" />
+    <Content Include="WebForms\FrmTableroControl.aspx" />
+    <Content Include="WebForms\Index.aspx" />
+    <Content Include="WebForms\MenuPrincipal.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForms\FrmGuia.aspx.cs">
+      <DependentUpon>FrmGuia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\FrmGuia.aspx.designer.cs">
+      <DependentUpon>FrmGuia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\TblControl.Master.cs">
+      <DependentUpon>TblControl.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\TblControl.Master.designer.cs">
+      <DependentUpon>TblControl.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\FrmForms.aspx.cs">
+      <DependentUpon>FrmForms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\FrmForms.aspx.designer.cs">
+      <DependentUpon>FrmForms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\FrmGrid.aspx.cs">
+      <DependentUpon>FrmGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\FrmGrid.aspx.designer.cs">
+      <DependentUpon>FrmGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\FrmTableroControl.aspx.cs">
+      <DependentUpon>FrmTableroControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\FrmTableroControl.aspx.designer.cs">
+      <DependentUpon>FrmTableroControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Login.Master.cs">
+      <DependentUpon>Login.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Login.Master.designer.cs">
+      <DependentUpon>Login.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\MenuPrincipal.aspx.cs">
+      <DependentUpon>MenuPrincipal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\MenuPrincipal.aspx.designer.cs">
+      <DependentUpon>MenuPrincipal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Principal.Master.cs">
+      <DependentUpon>Principal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Principal.Master.designer.cs">
+      <DependentUpon>Principal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Principal2.Master.cs">
+      <DependentUpon>Principal2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Principal2.Master.designer.cs">
+      <DependentUpon>Principal2.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WebForms\Login.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BootStrapV3.3.4\css\bootstrap-theme.css.map" />
+    <None Include="BootStrapV3.3.4\css\bootstrap.css.map" />
+    <None Include="BootStrapV3.3.4\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="BootStrapV3.3.4\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="BootStrapV3.3.4\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="BootStrapV3.3.4\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="WebForms\Principal.Master" />
+    <Content Include="WebForms\Principal2.Master" />
+    <None Include="Fonts\biblioteca-iconos-gv.eot" />
+    <None Include="Fonts\biblioteca-iconos-gv.ttf" />
+    <None Include="Fonts\biblioteca-iconos-gv.woff" />
+    <None Include="Scripts\ChartsJS\.gitignore" />
+    <None Include="Scripts\ChartsJS\.travis.yml" />
+    <None Include="Scripts\ChartsJS\bower.json" />
+    <None Include="Scripts\ChartsJS\CONTRIBUTING.md" />
+    <None Include="Scripts\ChartsJS\LICENSE.md" />
+    <None Include="Scripts\ChartsJS\package.json" />
+    <None Include="Scripts\ChartsJS\README.md" />
+    <Content Include="WebForms\TblControl.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LDA\Brainsbits.LDA.csproj">
+      <Project>{840364AD-5BF9-4F08-98E0-7BC89E024EDF}</Project>
+      <Name>Brainsbits.LDA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LLB\Brainsbits.LLB.csproj">
+      <Project>{5902E5B6-13EB-45D2-A490-49161AEB956C}</Project>
+      <Name>Brainsbits.LLB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2521</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

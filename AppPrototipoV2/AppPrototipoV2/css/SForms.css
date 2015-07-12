@@ -1,0 +1,237 @@
+﻿.placeholder
+{
+    color: grey;
+}
+select option:first-child
+{
+    color: grey;
+    display: none;
+}
+select option
+{
+    color: #555;
+}
+
+.fontItalic
+{
+    font-family: Open Sans, Italic;
+    font-style: italic;
+}
+.fontRegular
+{
+    font-family: Open Sans, Regular;
+}
+.fontBold
+{
+    font-family: Open Sans, Bold;
+}
+
+.legForm
+{
+    margin-left: 3%;
+    height: 30px;
+    font-size: 15px;
+    padding-top: 4px;
+}
+.DivCont
+{
+    margin-left: 1%;
+    width: 87%;
+    height: 50%;
+    float: left;
+    background-color: #f0f3f6;
+    margin-top: 20px;
+}
+
+.dvSep1
+{
+    height: 60px;
+    padding: 0;
+    line-height: inherit;
+    border: 0;
+    vertical-align: middle;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.dvLinea
+{
+    padding: 0;
+    line-height: inherit;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+    vertical-align: middle;
+}
+@media (max-width: 768px)
+{
+    .dvSep1
+    {
+        height: 100%;
+        padding: 0;
+        line-height: inherit;
+        border: 0;
+        border-bottom: 1px solid #e5e5e5;
+        vertical-align: middle;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+}
+@media (max-width: 992px)
+{
+    .dvSep1
+    {
+        height: 100%;
+        padding: 0;
+        line-height: inherit;
+        border: 0;
+        border-bottom: 1px solid #e5e5e5;
+        vertical-align: middle;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+}
+.DId
+{
+    margin-left: 1%;
+    width: 87%;
+}
+.DivGrid
+{
+    margin-left: 3%;
+    width: 87%;
+    height: 40%;
+    float: left;
+    margin-top: 1%;
+}
+.DivGraf
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-top: 0.5px;
+    left: -50px;
+}
+.DivContGrid
+{
+    margin-left: 3%;
+    width: 87%;
+    height: 50%;
+    float: left;
+}
+.DivGrafP
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-left: 18%;
+}
+.legendP
+{
+    float: left;
+    margin-top: 10px;
+}
+
+.btnHover
+{
+    color: white;
+    background-color: #4F5F6F;
+}
+.btnHover:hover
+{
+    background-color: #F5F9FD;
+    color: Black;
+}
+
+.frmClass
+{
+    border-left: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+
+.clsMenSup
+{
+    background-color: White;
+    border: solid 0px White;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 40px;
+}
+
+/*Menu Sup*/
+
+.menu
+{
+    display: block;
+}
+
+.menu li
+{
+    display: inline-block;
+    position: relative;
+    left: 90%;
+    z-index: 100;
+}
+
+.menu li a
+{
+    font-weight: 600;
+    text-decoration: none;
+    padding: 11px;
+    display: block;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+/* hide the second level menu */
+.menu ul
+{
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 0px;
+    position: absolute;
+    top: 43px;
+    left: 0px;
+    background: #ffffff;
+}
+
+/* display second level menu on hover */
+.menu li:hover > ul
+{
+    display: block;
+}
+
+.menu ul li
+{
+    display: block;
+    float: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+}
+
+.menu ul li a
+{
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+    border-left: 3px solid #ffffff;
+}
+
+.menu ul li a:hover, .menu ul li:hover > a
+{
+    border-left: 3px solid #59c2e6;
+}
+
+.btnSubMenu
+{
+    border: 1px solid transparent;
+    background-color: transparent;
+    padding: 3px 20px;
+    font-size: 15px;
+    color: #4f5f6f;
+}

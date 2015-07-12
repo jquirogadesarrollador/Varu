@@ -1,0 +1,230 @@
+﻿@font-face {
+	font-family: 'biblioteca-iconos-gv';
+	src:url('/Fonts/biblioteca-iconos-gv.eot?7yv5dc');
+	src:url('/Fonts/biblioteca-iconos-gv.eot?#iefix7yv5dc') format('embedded-opentype'),
+		url('/Fonts/biblioteca-iconos-gv.ttf?7yv5dc') format('truetype'),
+		url('/Fonts/biblioteca-iconos-gv.woff?7yv5dc') format('woff'),
+		url('/Fonts/biblioteca-iconos-gv.svg?7yv5dc#biblioteca-iconos-gv') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icons_main';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'biblioteca-iconos-gv';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-administracion_h:before {
+	content: "\e600";
+}
+.icon-administracion_n:before {
+	content: "\e601";
+}
+.icon-bienvenido_user:before {
+	content: "\e602";
+}
+.icon-buscar:before {
+	content: "\e603";
+}
+.icon-cliente_h:before {
+	content: "\e604";
+}
+.icon-cliente_n:before {
+	content: "\e605";
+}
+.icon-contabilidad_h:before {
+	content: "\e606";
+}
+.icon-contabilidad_n:before {
+	content: "\e607";
+}
+.icon-contraseña:before {
+	content: "\e608";
+}
+.icon-contratacion_h:before {
+	content: "\e609";
+}
+.icon-contratacion_n:before {
+	content: "\e60a";
+}
+.icon-editar:before {
+	content: "\e60b";
+}
+.icon-finanzas_h:before {
+	content: "\e60c";
+}
+.icon-finanzas_n:before {
+	content: "\e60d";
+}
+.icon-guardar:before {
+	content: "\e60e";
+}
+.icon-imprimir:before {
+	content: "\e60f";
+}
+.icon-menuareas:before {
+	content: "\e610";
+}
+.icon-menuprincipal:before {
+	content: "\e611";
+}
+.icon-mercadeo_h:before {
+	content: "\e612";
+}
+.icon-mercadeo_n:before {
+	content: "\e613";
+}
+.icon-mostrarmenu:before {
+	content: "\e614";
+}
+.icon-nomina_h:before {
+	content: "\e615";
+}
+.icon-nomina_n:before {
+	content: "\e616";
+}
+.icon-nuevo:before {
+	content: "\e617";
+}
+.icon-ocultarmenu:before {
+	content: "\e618";
+}
+.icon-point:before {
+	content: "\e619";
+}
+.icon-seleccion_h:before {
+	content: "\e61a";
+}
+.icon-seleccion_n:before {
+	content: "\e61b";
+}
+.icon-site_h:before {
+	content: "\e61c";
+}
+.icon-site_n:before {
+	content: "\e61d";
+}
+.icon-usuario:before {
+	content: "\e61e";
+}
+
+
+.clsSel, .cslMer, .clsCont, .clsNom, .clsFin, .clsConta, .clsMdlCte, .clsServSit, .clsAdmn
+{
+    font-size: 100px;
+}
+
+.cslMer .icon-mercadeo_h,
+.cslMer:hover .icon-mercadeo_n {
+    display: none;
+}
+.cslMer:hover .icon-mercadeo_h {
+    display: inline;
+    color: White;
+}
+
+.cslMer .icon-mercadeo_h,
+.cslMer:hover .icon-mercadeo_n {
+    display: none;
+}
+.cslMer:hover .icon-mercadeo_h {
+    display: inline;
+    color: White;
+}
+
+.clsSel .icon-seleccion_h,
+.clsSel:hover .icon-seleccion_n {
+    display: none;
+}
+.clsSel:hover .icon-seleccion_h {
+    display: inline;
+    color: White;
+}
+
+.clsCont .icon-contratacion_h,
+.clsCont:hover .icon-contratacion_n {
+    display: none;
+}
+.clsCont:hover .icon-contratacion_h {
+    display: inline;
+    color: White;
+}
+
+
+.clsNom .icon-nomina_h,
+.clsNom:hover .icon-nomina_n {
+    display: none;
+}
+.clsNom:hover .icon-nomina_h {
+    display: inline;
+    color: White;
+}
+
+
+.clsFin .icon-finanzas_h,
+.clsFin:hover .icon-finanzas_n {
+    display: none;
+}
+.clsFin:hover .icon-finanzas_h {
+    display: inline;
+    color: White;
+}
+
+.clsConta .icon-contabilidad_h,
+.clsConta:hover .icon-contabilidad_n {
+    display: none;
+}
+.clsConta:hover .icon-contabilidad_h {
+    display: inline;
+    color: White;
+}
+
+.clsMdlCte .icon-cliente_h,
+.clsMdlCte:hover .icon-cliente_n {
+    display: none;
+}
+.clsMdlCte:hover .icon-cliente_h {
+    display: inline;
+    color: White;
+}
+
+.clsServSit .icon-site_h,
+.clsServSit:hover .icon-site_n {
+    display: none;
+}
+.clsServSit:hover .icon-site_h {
+    display: inline;
+    color: White;
+}
+
+.clsAdmn .icon-administracion_h,
+.clsAdmn:hover .icon-administracion_n {
+    display: none;
+}
+.clsAdmn:hover .icon-administracion_h {
+    display: inline;
+    color: White;
+}

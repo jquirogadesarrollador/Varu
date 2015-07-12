@@ -1,0 +1,60 @@
+c:\users\luisbrayan\documents\visual studio 2010\Projects\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.dll
+c:\users\luisbrayan\documents\visual studio 2010\Projects\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.pdb
+c:\users\luisbrayan\documents\visual studio 2010\Projects\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.dll
+c:\users\luisbrayan\documents\visual studio 2010\Projects\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Maquetado\Desarrollo\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Maquetado\Desarrollo\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Maquetado\Desarrollo\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Maquetado\Desarrollo\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.pdb
+C:\Users\diego.rodriguez\Downloads\AppPrototipoV2-master\AppPrototipoV2\bin\AppPrototipoV2.dll
+C:\Users\diego.rodriguez\Downloads\AppPrototipoV2-master\AppPrototipoV2\bin\AppPrototipoV2.pdb
+C:\Users\diego.rodriguez\Downloads\AppPrototipoV2-master\AppPrototipoV2\obj\Debug\AppPrototipoV2.dll
+C:\Users\diego.rodriguez\Downloads\AppPrototipoV2-master\AppPrototipoV2\obj\Debug\AppPrototipoV2.pdb
+C:\Users\diego.rodriguez\Downloads\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.dll
+C:\Users\diego.rodriguez\Downloads\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.pdb
+C:\Users\diego.rodriguez\Downloads\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.dll
+C:\Users\diego.rodriguez\Downloads\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.pdb
+C:\Users\LuisBrayan\Documents\GitHub\AppPrototipoV2\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.dll
+C:\Users\LuisBrayan\Documents\GitHub\AppPrototipoV2\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.pdb
+C:\Users\LuisBrayan\Documents\GitHub\AppPrototipoV2\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.dll
+C:\Users\LuisBrayan\Documents\GitHub\AppPrototipoV2\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.pdb
+F:\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.dll
+F:\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.pdb
+F:\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.dll
+F:\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.pdb
+C:\Users\LuisBrayan\Documents\GitHub\AppPrototipoV3\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.dll
+C:\Users\LuisBrayan\Documents\GitHub\AppPrototipoV3\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.pdb
+C:\Users\LuisBrayan\Documents\GitHub\AppPrototipoV3\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.dll
+C:\Users\LuisBrayan\Documents\GitHub\AppPrototipoV3\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.pdb
+C:\PROYECTO_PERSONALES\26062015\AppPrototipoV3\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.dll
+C:\PROYECTO_PERSONALES\26062015\AppPrototipoV3\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.pdb
+C:\PROYECTO_PERSONALES\26062015\AppPrototipoV3\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.dll
+C:\PROYECTO_PERSONALES\26062015\AppPrototipoV3\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.pdb
+C:\PROYECTO_PERSONALES\27062015\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.dll
+C:\PROYECTO_PERSONALES\27062015\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.pdb
+C:\PROYECTO_PERSONALES\27062015\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.dll
+C:\PROYECTO_PERSONALES\27062015\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.pdb
+C:\Users\diego.rodriguez\Downloads\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.csprojResolveAssemblyReference.cache
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\AppPrototipoV2.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\Brainsbits.LDA.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\Brainsbits.LLB.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.Shared.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\Brainsbits.LDA.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\bin\Brainsbits.LLB.pdb
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.csprojResolveAssemblyReference.cache
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.dll
+C:\Users\DIEGOALEJANDRO\Google Drive\Diego Rodriguez\Desarrollo\Desarrollos BrainsBits\Migración\Codigo Fuente\V 1.0\AppPrototipoV2\AppPrototipoV2\obj\Debug\AppPrototipoV2.pdb

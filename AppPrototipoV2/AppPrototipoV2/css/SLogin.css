@@ -1,0 +1,151 @@
+﻿.fontRegular
+{
+    font-family: Open Sans, Regular;
+}
+.fontBold
+{
+    font-family: Open Sans, Bold;
+}
+.DivLnk
+{
+    text-align: center; 
+    margin-top: 5%;
+    font-family: Open Sans, Regular;
+}
+
+.StBackWhite
+{
+    background-color: White;
+}
+.divTituloForm
+{
+    margin-left: 26%;
+    text-align: center;
+    width: 50%;
+    line-height: 20px;
+    color: White;
+    font-weight: bold;
+    font-family: Open Sans, Bold;
+}
+
+.divUserContrasena
+{
+    margin-bottom: 25px; 
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Open Sans, Regular;
+}
+.DivBtn
+{
+    margin-left: 5%; 
+    margin-right: 5%;
+    font-family: Open Sans, Bold;
+}
+.divUserName
+{
+    margin-bottom: 25px; 
+    margin-top: 40%; 
+    margin-left: 5%; 
+    margin-right: 5%;
+    font-family: Open Sans, Regular;
+}
+
+
+#PanelLogin
+{
+    position: absolute;
+    background-color: #59c2e6;
+    height: 100%;
+    width: 300px;
+}
+
+.profile-img-card
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.caja1
+{
+    position: absolute;
+    width: 33%;
+    left: 15%;
+    /*border: solid 1px #999;*/
+    
+}
+
+.caja2
+{
+    position: absolute;
+    width: 33%;
+    left: 33%;
+    /*border: solid 1px #999;*/
+}
+
+.caja3
+{
+    position: absolute;
+    width: 33%;
+    left: 52%;
+    /*border: solid 1px #999;*/
+}
+
+.caja4
+{
+    position: absolute;
+    width: 24%;
+    left: 66%;
+    /*border: solid 1px #999;*/
+}
+.btn-circle {
+  width: 100px;
+  height: 100px;
+  line-height: 100px; /* adjust line height to align vertically*/
+  font-size:60px;
+  padding:0;
+  border-radius: 50%;
+  background-color: #59c2e6;
+  color:White;
+}
+
+.btn-circleUser {
+  width: 100px;
+  height: 100px;
+  line-height: 100px; /* adjust line height to align vertically*/
+  font-size:80px;
+  padding:10px;
+  border-radius: 50%;
+  background-color: White;
+  
+}
+
+.btn-circleMenu {
+  width: 100px;
+  height: 100px;
+  line-height: 100px; /* adjust line height to align vertically*/
+  font-size:60px;
+  padding:0;
+  border-radius: 50%;
+  background-color: White;
+  color:Black;
+}
+
+.btnHover{
+   color: white;
+   background-color: #4F5F6F;
+}
+.btnHover:hover
+{
+    background-color: #F5F9FD;
+    Color:Black;
+}
+
+.btnCerSes
+{
+    background-color: #F5F9FD;
+    Color:Black;
+}

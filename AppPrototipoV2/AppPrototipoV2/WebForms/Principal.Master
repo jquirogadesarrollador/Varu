@@ -1,0 +1,85 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs"
+    Inherits="AppPrototipoV2.WebForms.Principal" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="../css/SMaster.css" rel="stylesheet" type="text/css" />
+    <link href="../css/SForms.css" rel="stylesheet" type="text/css" />
+    <link href="../css/SMenuF.css" rel="stylesheet" type="text/css" />
+    <link href="../BootStrapV3.3.4/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="../css/SCharts.css" rel="stylesheet" type="text/css" />
+    <link href="../css/SIconFont.css" rel="stylesheet" type="text/css" />
+    <script src='<%= ResolveClientUrl("~/Scripts/jMenFloat.js") %>' type="text/javascript"></script>
+    <script src='<%= ResolveClientUrl("~/Scripts/jquery-1.9.1.js") %>' type="text/javascript"></script>
+    <script src='<%= ResolveClientUrl("~/Scripts/jquery.touchSwipe.min.js") %>' type="text/javascript"></script>
+    <script src='<%= ResolveClientUrl("~/Scripts/jsplug.js") %>' type="text/javascript"></script>
+    <script src='<%= ResolveClientUrl("~/BootStrapV3.3.4/js/bootstrap-datepicker.min.js") %>'
+        type="text/javascript"></script>
+    <!--[if lt IE 9]>
+        <script src="../Scripts/html5.js" type="text/javascript"></script>
+        <script type="text/javascript" src="../Scripts/respond.js"></script>
+    <![endif]-->
+    <%--Iconos --%>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="containerSW">
+        <div id="sidebar">
+            <ul id="menu-v">
+                <div style="text-align: center;">
+                    <div class="letraTitulos fontBold" style="text-align: center; margin-top: 60px; color: White;
+                        font-weight: bold; font-size: 10px;">
+                        NOMBRE DEL
+                    </div>
+                </div>
+                <div style="text-align: center;">
+                    <div class="letraTitulos fontBold" style="text-align: center; color: White; font-weight: bold;
+                        font-size: 12px;">
+                        SOFTWARE
+                    </div>
+                </div>
+                <li class="liMenP"  style="margin-top: 40px;"><a href="#" class="icon-usuario sliFont sliHover"></a>
+                    <ul class="dropdown-menu bckMenu">
+                        <li class="text-center liMen fontRegular">NOMBRE DE USUARIO</li>
+                        <li class="text-center liMen DivName fontRegular">APELLIDO</li>
+                        <li class="liMen fontItalic"><a class="aFont" href="#">SubMenú 1</a></li>
+                        <li><a class="aFont fontItalic" href="#">SubMenú 2</a></li>
+                    </ul>
+                </li>
+                <div class="divPrueba">
+                </div>
+                <li class="liMenP liDiv"><a href="FrmForms.aspx" class="icon-mercadeo_h sliFontPro sliHover">
+                </a>
+                    <ul class="dropdown-menu bckMenu">
+                        <li class="text-center liMen fontRegular">NOMBRE DEL</li>
+                        <li class="text-center liMen DivName fontRegular">PROCESO</li>
+                        <li class="liMen"><a class="aFont fontItalic" href="#">Opción Numero 1</a></li>
+                        <li><a class="aFont fontItalic" href="#">Opción Numero 2</a></li>
+                        <li><a class="aFont fontItalic" href="#">Opción Numero 3</a></li>
+                        <li><a class="aFont fontItalic" href="#">Opción Numero 4</a></li>
+                    </ul>
+                </li>
+                <div class="divPrueba">
+                </div>
+                <li class="liMenP"><a href="MenuPrincipal.aspx" class="icon-menuprincipal sliFont sliHover">
+                </a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="swipe-area" style="display: inline-block; vertical-align: middle; float: none;">
+            <a href="#" data-toggle=".containerSW" id="sidebar-toggle" class="icon-mostrarmenu sbtn"></a>
+            </div>
+            
+            <div class="content">
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
