@@ -10,7 +10,9 @@
     </div>
     <div class="text-center fontRegular">
         <h3>
-            MENÚ PRINCIPAL</h3>
+<%--            <asp:Label ID="Label_NOMBRE_MODULO" runat="server"></asp:Label>--%>
+            MENÚ PRINCIPAL
+            </h3>
     </div>
     <div style="position: relative; margin-top: 40px;" class="text-center">
         <div class="caja1">

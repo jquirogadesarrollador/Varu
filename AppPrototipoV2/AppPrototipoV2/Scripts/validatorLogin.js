@@ -13,14 +13,14 @@
                 validating: 'glyphicon glyphicon-refresh'
             },
             fields: {
-                username: {
+                ctl00$TextBox_NombreUsuario: {
                     message: 'El usuario no es valido',
                     validators: {
                         notEmpty: {
                             message: 'El usuario es requerido, no puede estar vacio'
                         },
                         stringLength: {
-                            min: 6,
+                            min: 5,
                             max: 30,
                             message: 'El usuario debe tener mas de 6 caracteres y menos de 30'
                         },
@@ -34,7 +34,7 @@
                         }
                     }
                 },
-                password: {
+                ctl00$TextBox_Pasword: {
                     validators: {
                         notEmpty: {
                             message: 'La contraseña es requerida, no puede estar vacia'
