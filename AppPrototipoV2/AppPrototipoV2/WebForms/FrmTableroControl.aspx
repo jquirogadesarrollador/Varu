@@ -4,42 +4,40 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type="text/javascript">
-        $(document).ready(
-                function () {
-                    var myNewChart = new google.visualization.PieChart(document.getElementById('piechart'));
+        google.load('visualization', '1', { packages: ['corechart'] });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.ajax({
+                type: 'POST',
+                dataType: 'json',
+                contentType: 'application/json',
+                url: 'FrmTableroControl.aspx/GetData',
+                data: '{}',
+                success:
+                    function (response) {
+                        drawVisualization(response.d);
+                    }
 
-                    $("#piechart").click(
-                        function (evt) {
-                            window.location = "FrmGrid.aspx";
-                        }
-                    );
-                }
-            );
-        google.load("visualization", "1", { packages: ["corechart"] });
-        google.setOnLoadCallback(drawChart);
-        function drawChart() {
+            });
+        })
 
-            var data = google.visualization.arrayToDataTable([
-          ['Estado', ''],
-          ['Activo', 50],
-          ['Rechazado', 25],
-          ['Disponible', 25]
-        ]);
+        function drawVisualization(dataValues) {
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Column Name');
+            data.addColumn('number', 'Column Value');
 
-            var options = { 'title': '',
-                'width': 750,
-                'height': 600,
-                fontSize: '25',
-                fontName: 'Open Sans, Regular',
-                colors: ['#99cc66', '#ffcc66', '#33ccff'],
-                legend: { alignment: 'center', textStyle: { fontSize: 14} }
-            };
+            for (var i = 0; i < dataValues.length; i++) {
+                data.addRow([dataValues[i].ColumnName, dataValues[i].Value]);
+            }
 
-            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-            
-            chart.draw(data, options);
-        }
+            new google.visualization.PieChart(document.getElementById('visualization')).
+                draw(data, { title: "Google Chart demo" });
+        } 
+         
     </script>
     <div class="row">
         <div class="col-md-12" style="border-bottom: 1px solid #003366; width: 80%;">

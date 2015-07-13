@@ -17,6 +17,13 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <%--script formulario emergente--%>
+    <!-- sometime later, probably inside your on load event callback -->
+    <script type="text/javascript">
+        function openpopup() {
+            $('#myModal').modal('show');
+        }
+    </script>
 </head>
 <body>
     <form id="loginForm" runat="server">
@@ -35,7 +42,7 @@
         </div>
         <div class="form-group divUserName">
             <div class="input-group">
-                <span class="input-group-addon " style="background-color: White; "><i class="icon-usuario"
+                <span class="input-group-addon " style="background-color: White;"><i class="icon-usuario"
                     style="background-color: White;"></i></span>
                 <asp:TextBox runat="server" ID="TextBox_NombreUsuario" CssClass="form-control" placeholder="Usuario"
                     name="username" required></asp:TextBox>
@@ -43,42 +50,47 @@
         </div>
         <div class="form-group divUserContrasena">
             <div class="input-group">
-                <span class="input-group-addon " style="background-color: White; "><i class="icon-contraseña"
+                <span class="input-group-addon " style="background-color: White;"><i class="icon-contraseña"
                     style="background-color: White;"></i></span>
                 <asp:TextBox runat="server" ID="TextBox_Pasword" CssClass="form-control" name="password"
                     placeholder="********" required></asp:TextBox>
             </div>
         </div>
         <div class="DivBtn">
-            <asp:Button ID="btnEntrera" runat="server" Text="ENTRAR" CssClass='btn form-control btnHover' OnClick="Button_ACEPTAR_Click"    />
+            <asp:Button ID="btnEntrera" runat="server" Text="ENTRAR" CssClass='btn form-control btnHover'
+                OnClick="Button_ACEPTAR_Click" />
         </div>
         <div class="DivLnk">
-            <a href="#" style="color: white; font-size:12px;">¿Necesitas ayuda?</a>
+            <a href="#" style="color: white; font-size: 12px;">¿Necesitas ayuda?</a>
         </div>
     </div>
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
     </div>
-    <%--paneles emergentes--%>
-    <asp:UpdatePanel ID="UpdatePanel_Procesamiento" runat="server" UpdateMode="Conditional">
-        <ContentTemplate>
-            <asp:Panel ID="Panel_FONDO_MENSAJE" runat="server" Visible="false" Style="background-color: #999999;">
-            </asp:Panel>
-            <asp:Panel ID="Panel_MENSAJES" runat="server">
-                <asp:Image ID="Image_MENSAJE_POPUP" runat="server" Width="50px" Height="50px" Style="margin: 5px auto 8px auto;
-                    display: block;" />
-                <asp:Panel ID="Panel_COLOR_FONDO_POPUP" runat="server" Style="text-align: center">
-                    <asp:Label ID="Label_MENSAJE" runat="server" ForeColor="Red" Text="Este es el mensaje, tiene un texto de acuerdo a la acción correspondiente."></asp:Label>
-                </asp:Panel>
-                <div style="text-align: center; margin-top: 15px;">
-                    <%--<asp:Button ID="Button_CERRAR_MENSAJE" runat="server" Text="Cerrar" CssClass="margin_botones"
-                        OnClick="Button_CERRAR_MENSAJE_Click" />--%>
-                    <asp:Button ID="Button_CERRAR_MENSAJE" runat="server" Text="Cerrar" CssClass="margin_botones" />
-                </div>
-            </asp:Panel>
-        </ContentTemplate>
-    </asp:UpdatePanel>
     </form>
+    <%--paneles emergentes--%>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        Close</button>
+                    <button type="button" class="btn btn-primary">
+                        Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
