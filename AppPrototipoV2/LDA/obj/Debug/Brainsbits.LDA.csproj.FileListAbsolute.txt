@@ -14,4 +14,3 @@ C:\PROYECTO_PERSONALES\Varu\AppPrototipoV2\LDA\bin\Debug\Brainsbits.LDA.dll
 C:\PROYECTO_PERSONALES\Varu\AppPrototipoV2\LDA\bin\Debug\Brainsbits.LDA.pdb
 C:\PROYECTO_PERSONALES\Varu\AppPrototipoV2\LDA\obj\Debug\Brainsbits.LDA.dll
 C:\PROYECTO_PERSONALES\Varu\AppPrototipoV2\LDA\obj\Debug\Brainsbits.LDA.pdb
-C:\PROYECTO_PERSONALES\Varu\AppPrototipoV2\LDA\obj\Debug\Brainsbits.LDA.csprojResolveAssemblyReference.cache

@@ -13,13 +13,12 @@ namespace AppPrototipoV2
         protected void Page_Load(object sender, EventArgs e)
         {
             DataTable myTable = new DataTable("myTable");
-            DataColumn colItem = new DataColumn("item",Type.GetType("System.Int32"));
+            DataColumn colItem = new DataColumn("item", Type.GetType("System.String"));
             DataColumn colItem1 = new DataColumn("item1", Type.GetType("System.Int32"));
-            DataColumn colItem2 = new DataColumn("item2", Type.GetType("System.Int32"));
-
+            
             myTable.Columns.Add(colItem);
             myTable.Columns.Add(colItem1);
-            myTable.Columns.Add(colItem2);
+            
 
             // Add five items.
             DataRow NewRow;
@@ -30,14 +29,12 @@ namespace AppPrototipoV2
                 myTable.Rows.Add(NewRow);
             }
 
-            myTable.Rows[0]["item"] = "1";
-            myTable.Rows[0]["item1"] = "2";
-            myTable.Rows[0]["item2"] = "3";
+            myTable.Rows[0]["item"] = "Juan";
+            myTable.Rows[0]["item1"] = "60";
 
-            myTable.Rows[1]["item"] = "4";
-            myTable.Rows[1]["item1"] = "5";
-            myTable.Rows[1]["item2"] = "6";
-
+            myTable.Rows[1]["item"] = "Diego";
+            myTable.Rows[1]["item1"] = "40";
+            
 
 
             myTable.AcceptChanges();
@@ -45,7 +42,7 @@ namespace AppPrototipoV2
             //DataView custDV = new DataView(custDS.Tables["Customers"], "Country = 'USA'", "ContactName", DataViewRowState.CurrentRows);
             DataView custDV = new DataView(myTable);
 
-            Display(custDV);
+            //Display(custDV);
         }
 
 
@@ -62,16 +59,17 @@ namespace AppPrototipoV2
 
             for (int loopCount = 0; loopCount < dataview.Count; loopCount++)
             {
-                values = values + "['" + dataview[loopCount][1].ToString() + "'," + Math.Round(float.Parse(dataview[loopCount][2].ToString())) + "],";
+                values = values + "['" + dataview[loopCount][0].ToString() + "'," + Math.Round(float.Parse(dataview[loopCount][1].ToString())) + "],";
             }//where i initialize my data for google chart...
             values = values.Substring(0, values.Length - 1);
             javaScript.Append(values);
             javaScript.Append("]);");
-            javaScript.Append("var options = {title: 'Productivity Performance',hAxis: { title: 'Date', titleTextStyle: { color: 'red'} }}; var chart = new google.visualization.PieChart(document.getElementById('chart_div')); chart.draw(data, options);}");
+            //javaScript.Append("var options = {title: 'Productivity Performance',hAxis: { title: 'Date', titleTextStyle: { color: 'red'} }}; var chart = new google.visualization.PieChart(document.getElementById('chart_div')); chart.draw(data, options);}");
+            javaScript.Append(" var options = { 'title': '', 'width': 750, 'height': 600, fontSize: '25', fontName: 'Open Sans, Regular', colors: ['#99cc66', '#ffcc66', '#33ccff'], legend: { alignment: 'center', textStyle: { fontSize: 14} }}; var chart = new google.visualization.PieChart(document.getElementById('chart_div')); chart.draw(data, options);}");
+            
             javaScript.Append("</script>");
 
             Page.RegisterStartupScript("Graph", javaScript.ToString());
-
         }
     }
 }

@@ -96,8 +96,77 @@ namespace AppPrototipoV2.WebForms
         private void Iniciar()
         {
             //Configurar();
-            Cargar();
+            //Cargar();
             //cargar_menu_botones_modulos_internos();
+            //cargarSemaforos();
+            creargrafico();
+        }
+
+        private void creargrafico()
+        {
+
+            DataTable myTable = new DataTable("myTable");
+            DataColumn colItem = new DataColumn("item", Type.GetType("System.String"));
+            DataColumn colItem1 = new DataColumn("item1", Type.GetType("System.Int32"));
+
+            myTable.Columns.Add(colItem);
+            myTable.Columns.Add(colItem1);
+
+
+            // Add five items.
+            DataRow NewRow;
+            for (int i = 0; i < 3; i++)
+            {
+                NewRow = myTable.NewRow();
+                NewRow["item"] = i;
+                myTable.Rows.Add(NewRow);
+            }
+
+            myTable.Rows[0]["item"] = "Mas de un mes de vencimiento";
+            myTable.Rows[0]["item1"] = "149";
+
+            myTable.Rows[1]["item"] = "Menos de un mes de vencimiento";
+            myTable.Rows[1]["item1"] = "10";
+
+            myTable.Rows[2]["item"] = "Vencido";
+            myTable.Rows[2]["item1"] = "38";
+
+
+            myTable.AcceptChanges();
+
+            //DataView custDV = new DataView(custDS.Tables["Customers"], "Country = 'USA'", "ContactName", DataViewRowState.CurrentRows);
+            DataView custDV = new DataView(myTable);
+
+            Display(custDV);
+        }
+
+        private void cargarSemaforos() 
+        {
+            contratosServicio _contratosServicio = new contratosServicio(Session["idEmpresa"].ToString());
+            DataTable tblcontratosServicio = new DataTable();
+
+            tblcontratosServicio = _contratosServicio.ObtenerSemaforoContratosDeServico();
+            
+            //var qryLatestInterview = from rows in tblcontratosServicio.AsEnumerable()
+            //             orderby rows["ALERTA"] descending
+            //             group rows by new { PositionID = rows["ALERTA"]} into grp
+            //             select grp.First();
+
+            //var qryLatestInterview = from row in tblcontratosServicio.AsEnumerable()
+            //                         group row by row.Field<string>("ALERTA") into sales
+            //                         select new
+            //                         {
+            //                             ALERTA = sales.Key,
+            //                             contador = sales.Count()
+            //                         };
+
+
+            //var dtPositionInterviews = qryLatestInterview.CopyToDataTable();
+            
+            DataView custDV = new DataView(tblcontratosServicio);
+
+            Display(custDV);
+ 
         }
 
         private void Configurar()
@@ -107,11 +176,12 @@ namespace AppPrototipoV2.WebForms
         }
 
         //private void Cargar()
-        [WebMethod]
         public List<Data> Cargar()
         {
 
             contratosServicio _contratosServicio = new contratosServicio(Session["idEmpresa"].ToString());
+            
+            
             //Aca se sacar el valor que necesita la torta.
             List<Data> dataList = new List<Data>();
             string cat = "";
@@ -340,6 +410,30 @@ namespace AppPrototipoV2.WebForms
                 dataList.Add(new Data(cat, val));
             }
             return dataList;
+        }
+
+        public void Display(DataView dataview)
+        {
+            string values = "";
+            string url = "https://www.google.com/jsapi";
+            System.Text.StringBuilder javaScript = new System.Text.StringBuilder();
+            javaScript.Append("<script type=\"text/javascript\" src=" + url + "></script>");
+            javaScript.Append("<script type=\"text/javascript\"> google.load(\"visualization\", \"1\", {packages:[\"corechart\"]});");
+            javaScript.Append("google.setOnLoadCallback(drawChart); function drawChart() { var data = google.visualization.arrayToDataTable([ ['Date', 'WMins'],");
+
+            for (int loopCount = 0; loopCount < dataview.Count; loopCount++)
+            {
+                values = values + "['" + dataview[loopCount][0].ToString() + "'," + Math.Round(float.Parse(dataview[loopCount][1].ToString())) + "],";
+            }//where i initialize my data for google chart...
+            values = values.Substring(0, values.Length - 1);
+            javaScript.Append(values);
+            javaScript.Append("]);");
+            //javaScript.Append("var options = {title: 'Productivity Performance',hAxis: { title: 'Date', titleTextStyle: { color: 'red'} }}; var chart = new google.visualization.PieChart(document.getElementById('chart_div')); chart.draw(data, options);}");
+            javaScript.Append(" var options = { 'title': '', 'width': 750, 'height': 600, fontSize: '25', fontName: 'Open Sans, Regular', colors: ['#99cc66', '#ffcc66', '#33ccff'], legend: { alignment: 'center', textStyle: { fontSize: 14} }}; var chart = new google.visualization.PieChart(document.getElementById('chart_div')); chart.draw(data, options);}");
+
+            javaScript.Append("</script>");
+
+            Page.RegisterStartupScript("Graph", javaScript.ToString());
         }
 
 

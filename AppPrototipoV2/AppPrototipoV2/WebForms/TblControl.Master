@@ -65,8 +65,11 @@
                 <li class="liMenP liDiv"><a href="FrmForms.aspx" class="icon-mercadeo_h sliFontPro sliHover">
                 </a>
                     <ul class="dropdown-menu bckMenu">
-                        <li class="text-center liMen fontRegular">NOMBRE DEL</li>
-                        <li class="text-center liMen DivName fontRegular">PROCESO</li>
+<%--                    <li class="text-center liMen fontRegular">NOMBRE DEL</li>
+                        <li class="text-center liMen DivName fontRegular">PROCESO</li>--%>
+                        <li class="text-center liMen fontRegular">MERCADEO Y</li>
+                        <li class="text-center liMen DivName fontRegular">VENTAS</li>
+
                         <li class="liMen fontItalic"><asp:Button ID="btnOpc1" runat="server" Text="Opción Numero 1" CssClass='btnOpcion' /></li>
                         <li><asp:Button ID="btnOpc2" runat="server" Text="Opción Numero 2" CssClass='btnOpcion aFont fontItalic' /></li>
                         <li><asp:Button ID="btnOpc3" runat="server" Text="Opción Numero 3" CssClass='btnOpcion aFont fontItalic' /></li>
