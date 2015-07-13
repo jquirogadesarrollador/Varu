@@ -106,16 +106,22 @@ namespace AppPrototipoV2.WebForms
             //this.Button_EXPORTAR.Visible = false;
         }
 
-        private void Cargar()
+        //private void Cargar()
+        [WebMethod]
+        public List<Data> Cargar()
         {
 
             contratosServicio _contratosServicio = new contratosServicio(Session["idEmpresa"].ToString());
             //Aca se sacar el valor que necesita la torta.
-            //List<Data> dataList = new List<Data>();
+            List<Data> dataList = new List<Data>();
+            string cat = "";
+            int val = 0;
 
+            cat = "Hola";
+            val = 12;
+            dataList.Add(new Data(cat, val));
 
-
-
+            return dataList;
 
             //Cargar(GridView_HOJA_DE_TRABAJO, _contratosServicio.ObtenerSemaforoContratosDeServico());
         }

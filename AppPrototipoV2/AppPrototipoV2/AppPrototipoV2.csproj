@@ -82,6 +82,7 @@
     <Content Include="css\SMaster.css" />
     <Content Include="css\SMenuF.css" />
     <Content Include="css\SLogin.css" />
+    <Content Include="WebForms\Ejemplo.aspx" />
     <Content Include="Fonts\biblioteca-iconos-gv.svg" />
     <Content Include="Images\edit.png" />
     <Content Include="Images\Icon.png" />
@@ -130,6 +131,13 @@
     <Content Include="WebForms\MenuPrincipal.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="WebForms\Ejemplo.aspx.cs">
+      <DependentUpon>Ejemplo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Ejemplo.aspx.designer.cs">
+      <DependentUpon>Ejemplo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebForms\FrmGuia.aspx.cs">
       <DependentUpon>FrmGuia.aspx</DependentUpon>

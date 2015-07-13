@@ -52,7 +52,7 @@
             <div class="input-group">
                 <span class="input-group-addon " style="background-color: White;"><i class="icon-contraseña"
                     style="background-color: White;"></i></span>
-                <asp:TextBox runat="server" ID="TextBox_Pasword" CssClass="form-control" name="password"
+                <asp:TextBox runat="server" TextMode="Password" ID="TextBox_Pasword" CssClass="form-control" name="password"
                     placeholder="********" required></asp:TextBox>
             </div>
         </div>
